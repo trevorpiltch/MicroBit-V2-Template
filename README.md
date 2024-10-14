@@ -2,7 +2,7 @@
 This project is a sample Cargo project for the [Micro:Bit V2](https://microbit.org/) microcontroller. It is written in Rust based on the [Rust Discovery Book](https://github.com/rust-embedded/discovery/). 
 
 ## Installation
-1. **Install cargo:** [link](https://doc.rust-lang.org/cargo/getting-started/installation.html) \
+1. **Install cargo:** [link](https://doc.rust-lang.org/cargo/getting-started/installation.html)
 2. **Install cargo-generate:**
 ```bash
 cargo install cargo-generate

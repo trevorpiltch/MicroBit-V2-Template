@@ -1,7 +1,7 @@
 [package]
 authors = ["Trevor Piltch"]
 edition = "2018"
-name = "embedded_tamplate"
+name = "MicroBit-V2-Template"
 version = "0.1.0"
 
 [dependencies.microbit-v2]
@@ -10,9 +10,10 @@ version = "0.12.0"
 [dependencies]
 cortex-m = "0.7.3"
 cortex-m-rt = "0.7.0"
+panic-halt = "0.2.0"
+#rtt-target = { version = "0.3.1", features = ["cortex-m"] }
+panic-rtt-target = { version = "0.1.2", features = ["cortex-m"] }
+
+[dev-dependencies]
 rtt-target = { version = "0.3.1", features = ["cortex-m"] }
 panic-rtt-target = { version = "0.1.2", features = ["cortex-m"] }
-nb = "1.0.0"
-heapless = "0.7.10"
-lsm303agr = "0.2.2"
-embedded-hal = "0.2.6"
